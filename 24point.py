@@ -5,7 +5,7 @@ def _try(n, *num):
 	if not num:
 		if not n:
 			relist.append('')
-	return relist
+		return relist
 
 	for a in range(len(num)):
 		one = num[a]
